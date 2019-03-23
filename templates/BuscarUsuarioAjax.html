@@ -1,0 +1,30 @@
+
+<div class="table-responsive">
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th nowrap>Nombre</th>
+            <th nowrap>Pais</th>
+            <th nowrap>Email</th>
+        </tr>
+    </thead>
+    </tbody>
+    
+        {{#complex}}
+        <tr>
+            <td>
+                    {{ nombre }}
+            </td>
+            <td>
+                    {{ pais }}
+            </td>
+            <td>
+                    {{ email }}
+            </td>
+        </tr>
+        {{/complex}}
+    
+    
+    </tbody>
+</table>
+</div>
